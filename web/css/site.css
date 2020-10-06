@@ -1,0 +1,56 @@
+.modal1 {
+    display:    none;
+    position:   fixed;
+    /* z-index:    1000; */
+    z-index: 2147483647;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+        /* url('http://i.stack.imgur.com/FhHRx.gif')  */
+        url('../../image/FhHRx.gif') 
+        50% 50% 
+        no-repeat;
+}
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal1 {
+    display: block;
+}
+
+
+.skin-blue .main-header .logo {
+    background-color: #f39c12 !important;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color: #1a2226 !important;
+}
+.skin-blue .main-header .navbar {
+    background-color: #fff !important;
+  
+}
+.skin-blue .main-header .navbar .nav>li>a {
+    color: #1a2226 !important;
+}
+.sidebar-menu>li>a>.fa, .sidebar-menu>li>a>.glyphicon, .sidebar-menu>li>a>.ion {
+    width: 20px;
+    color: #f39c12;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: rgb(55 72 80 / 38%) !important;
+      /* color:  #fff !important; */
+}
+.skin-blue .main-header .navbar .nav>li>a:hover, .skin-blue .main-header .navbar .nav>li>a:active, .skin-blue .main-header .navbar .nav>li>a:focus, .skin-blue .main-header .navbar .nav .open>a, .skin-blue .main-header .navbar .nav .open>a:hover, .skin-blue .main-header .navbar .nav .open>a:focus, .skin-blue .main-header .navbar .nav>.active>a {
+    background: rgb(55 72 80 / 38%) !important;
+    /* color:  #fff !important; */
+}

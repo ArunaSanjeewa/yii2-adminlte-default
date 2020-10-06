@@ -2,7 +2,7 @@
     <a href="eimsky.com" target="_blank">
         <img src="https://github.com/harithmadu/solmik_intercool_service_web/blob/master/image/Login_new1.png?raw=true" height="100px">
     </a>
-    <h1 align="center">APT Cool Mate</h1>
+    <h1 align="center">yii2-adminlte-default</h1>
     <br>
 </p>
 
@@ -18,7 +18,7 @@ Please follow these step for setup:
     ~~~
     composer install
     ~~~
-    make sure you are in root path `solmik_intercool_service_web/`
+    make sure you are in root path `yii2-adminlte-default/`
 
 5. Now please replace that (step 2) COPIED directory to `vendor\webvimark\module-user-management`  
 6. Edit the file `config/db.php` with real data, for example:
